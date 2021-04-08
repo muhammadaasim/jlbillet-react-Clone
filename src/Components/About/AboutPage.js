@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <div className="link-map">
         <div className="container">
           <div className="links">
-            <a href="index.html">Home</a> / <a href="ar15.html">About</a>
+            <Link to="/">Home</Link> / <Link to="/about">About</Link>
           </div>
         </div>
       </div>

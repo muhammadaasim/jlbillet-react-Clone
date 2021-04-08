@@ -61,25 +61,25 @@ const Footer = () => {
               <div className="custom-menu">
                 <ul>
                   <li>
-                    <Link to="#">About</Link>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <Link to="#">Dealers</Link>
+                    <Link to="/dealers">Dealers</Link>
                   </li>
                   <li>
-                    <Link to="#">Tutorials</Link>
+                    <Link to="/tutorials">Tutorials</Link>
                   </li>
                   <li>
-                    <Link to="#">Gallery</Link>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                   <li>
-                    <Link to="#">Blog</Link>
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li>
-                    <Link to="#">Shipping & Returns</Link>
+                    <Link to="/shipping">Shipping & Returns</Link>
                   </li>
                   <li>
-                    <Link to="#">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -148,10 +148,10 @@ const Footer = () => {
             Currency Displayed in <strong>USD</strong>
           </li>
           <li>
-            <Link to="#">Sitemap</Link>
+            <Link to="/sitemap">Sitemap</Link>
           </li>
           <li>
-            <Link to="#">Terms Of Use</Link>
+            <Link to="/terms">Terms Of Use</Link>
           </li>
         </ul>
       </div>

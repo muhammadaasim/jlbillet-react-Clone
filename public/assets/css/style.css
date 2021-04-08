@@ -720,6 +720,228 @@ p.parax {
 .product-grid-sep .row > div {
     padding: 5px;
 }
+.page-inner-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin: 35px 0;
+}
+.about-content p.parax {
+    font-size: 18px;
+    color: #d3d3d3;
+    font-family: 'Rajdhani';
+}
+.dealer-heading {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ddd;
+    text-decoration: underline;
+    margin-bottom: 35px;
+}
+.dealers-info .info-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+.dealers-info {
+    margin-bottom: 35px;
+}
+.dealers-info > p {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ddd!important;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.dealers-info > p.info-email > a {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: #ddd!important;
+}
+.cs-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ddd;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+.more-info > p {
+    font-weight: 400;
+    color: #dcdcdc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Rajdhani';
+}
+.ubold{
+    text-decoration: underline!important;
+    font-weight: 600!important;
+}
+.form-field-container > label {
+    color: #dcdcdc;
+    font-family: 'Rajdhani';
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+form.contact-form-x1 .row > div {
+    margin-bottom: 20px;
+}
+.form-field-container > .fieldx1 {
+    min-height: 50px;
+}
+.submit-btn-1x {
+    background-color: #f28040;
+    border: solid 2px #f28040;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 50px;
+    text-transform: uppercase;
+}
+.submit-btn-1x:hover {
+    background-color: #000;
+    color: #f28040;
+}
+.tutorial-images-container .tutorial-image {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.tutorial-images-container .tutorial-image img {
+    max-width: 100%;
+    width: 100%;
+}
+.shipping-content > h4.ship-title {
+    color: #ff9900;
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Oswald';
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+.shipping-content {
+    margin-bottom: 35px;
+}
+ul.outer-list > li {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ddd;
+    font-size: 24px;
+    list-style: circle;
+}
+ul.inner-list {
+    list-style: square;
+}
+ul.inner-list > li a {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ddd;
+    font-size: 16px;
+}
+.check-container {
+    color: #ddd;
+}
+.contact-form-x1 label {
+    color: #ddd;
+    font-family: 'Rajdhani';
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-check-container > p {
+    color: #ddd;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Rajdhani';
+    margin-bottom: 5px;
+}
+.form-check-container {
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+    padding: 1.5rem;
+}
+.t-btn {
+    background-color: transparent;
+    border: solid 2px #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 50px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.t-btn:hover {
+    border: solid 2px #ddd;
+}
+.only-field{
+    position: relative;
+}
+.only-field input.form-control {
+    border-radius: 0!important;
+    min-height: 50px;
+}
+.only-field > input[type=submit] {
+    background-color: #f28040;
+    border: solid 2px #f28040;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.only-field > input[type=submit]:hover {
+    background-color: #000!important;
+    color: #f28040!important;
+}
+.sign-in-row .form-field-container {
+    margin-bottom: 25px;
+}
+a.forget-pass {
+    color: #ddd;
+    padding: 0 15px;
+    font-family: 'Rajdhani';
+    font-size: 16px;
+}
+.sign-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 22px;
+}
+ul.sign-list > li {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #dcdcdc;
+    font-size: 16px;
+}
+.sign-list-title {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 0;
+    font-family: 'Rajdhani';
+}
+.sign-in-details {
+    background-color: #000;
+    padding: 35px;
+}
+.primary-btn-x.large-btn {
+    padding: 13px 40px;
+}
+ul.sign-list {
+    margin-bottom: 35px;
+}
+.row.sign-in-row {
+    align-items: center;
+}
+.account-form .row > div {
+    margin-bottom: 25px;
+}
+
 
 
 /* > > > FOOTER < < < */
@@ -812,9 +1034,9 @@ ul.copy-right-list > li {
     max-width: 15%;
     width: 100%;
 }
-footer.website-footer {
+/* footer.website-footer {
     margin-top: 35px;
-}
+} */
 
 /* > > > INNER PAGES < < < */
 .link-map {
@@ -865,6 +1087,12 @@ footer.website-footer {
     padding: 10px 12px;
     color: #ccc;
     display: block;
+}
+.bal-content p {
+    color: #ddd;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 
@@ -951,6 +1179,9 @@ footer.website-footer {
     .newsletters .n-form {
         max-width: 100%;
         width: 100%;
+    }
+    .t-btn {
+        margin-right: 0px;
     }
 }
 @media only screen and (max-width: 480px){
