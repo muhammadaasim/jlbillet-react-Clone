@@ -7,7 +7,7 @@ const Tutorial = () => {
                 <div className="link-map">
                     <div className="container">
                         <div className="links">
-                            <Link to="/">Home</Link> / <Link to="/tutorial">Tutorial</Link>
+                            <Link to="/">Home</Link> / <Link to="/tutorials">Tutorials</Link>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Contact = () => {
     return (
         <div>
-            <section class="page-contact-section">
+            <section className="page-contact-section">
                 <div className="link-map">
                     <div className="container">
                         <div className="links">
@@ -11,59 +11,59 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div class="page-contact-inner">
-                    <div class="container">
-                        <h3 class="page-inner-title">CONTACT</h3>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="contact-content">
-                                    <p class="parax">Have questions? Comments or suggestions? Let us know what's on your
+                <div className="page-contact-inner">
+                    <div className="container">
+                        <h3 className="page-inner-title">CONTACT</h3>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="contact-content">
+                                    <p className="parax">Have questions? Comments or suggestions? Let us know what's on your
                                     mind.</p>
-                                    <p class="parax">Hours of operation: Monday - Friday, 8am - 5pm PST</p>
-                                    <p class="parax">Office: 619-800-1751</p>
-                                    <p class="parax">Shop: NOT open to the public, available by appointment only.</p>
-                                    <p class="parax">Mailing address: 12260 Crosthwaite Circle, Poway, CA 92064</p>
+                                    <p className="parax">Hours of operation: Monday - Friday, 8am - 5pm PST</p>
+                                    <p className="parax">Office: 619-800-1751</p>
+                                    <p className="parax">Shop: NOT open to the public, available by appointment only.</p>
+                                    <p className="parax">Mailing address: 12260 Crosthwaite Circle, Poway, CA 92064</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form action="" class="contact-form-x1">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-field-container">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <form action="" className="contact-form-x1">
+                                    <div className="row">
+                                        <div className="col-md-6">
+                                            <div className="form-field-container">
                                                 <label>Full Name</label>
-                                                <input type="text" name="" id="" class="fieldx1 form-control" required />
+                                                <input type="text" name="" id="" className="fieldx1 form-control" required />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-field-container">
+                                        <div className="col-md-6">
+                                            <div className="form-field-container">
                                                 <label>Phone Number</label>
-                                                <input type="tel" name="" id="" class="fieldx1 form-control" required />
+                                                <input type="tel" name="" id="" className="fieldx1 form-control" required />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-field-container">
+                                        <div className="col-md-6">
+                                            <div className="form-field-container">
                                                 <label>Email Address</label>
-                                                <input type="email" name="" id="" class="fieldx1 form-control" required />
+                                                <input type="email" name="" id="" className="fieldx1 form-control" required />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-field-container">
+                                        <div className="col-md-6">
+                                            <div className="form-field-container">
                                                 <label>Company Name</label>
-                                                <input type="text" name="" id="" class="fieldx1 form-control" required />
+                                                <input type="text" name="" id="" className="fieldx1 form-control" required />
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="form-field-container">
+                                        <div className="col-md-12">
+                                            <div className="form-field-container">
                                                 <label>Comments/Questions</label>
                                                 <textarea name="" id="" cols="30" rows="10"
-                                                    class="fieldx1 form-control"></textarea>
+                                                    className="fieldx1 form-control"></textarea>
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="submit-btn-container">
-                                                <input type="submit" class="submit-btn-1x" />
+                                        <div className="col-md-12">
+                                            <div className="submit-btn-container">
+                                                <input type="submit" className="submit-btn-1x" />
                                             </div>
                                         </div>
                                     </div>

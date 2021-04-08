@@ -1,5 +1,4 @@
 import React from 'react'
-import Subscription from '../Subscription'
 import {Link} from 'react-router-dom'
 const terms = () => {
     return (
@@ -464,7 +463,6 @@ const terms = () => {
                     </div>
                 </div>
             </section>
-            <Subscription />
         </>
     )
 }

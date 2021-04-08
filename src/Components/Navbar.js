@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
@@ -10,136 +10,136 @@ const Navbar = () => {
             <div className="navigation-bar">
               <ul className="primary-menu">
                 <li className="sub-menux">
-                  <a href="ar15.html">ar15</a>
+                  <Link to="ar15.html">ar15</Link>
                   <div className="sub-menu-container">
                     <ul className="sub-menu-list">
                       <li>
-                        <a href="#">All AR15</a>
+                        <Link to="#">All AR15</Link>
                       </li>
                       <li>
-                        <a href="#">AR 15 Hondguards</a>
+                        <Link to="#">AR 15 Hondguards</Link>
                       </li>
                       <li>
-                        <a href="#">AR 15 Lower Parts</a>
+                        <Link to="#">AR 15 Lower Parts</Link>
                       </li>
                       <li>
-                        <a href="#">AR 15 Upper Parts</a>
+                        <Link to="#">AR 15 Upper Parts</Link>
                       </li>
                       <li>
-                        <a href="#">AR 15 Barrels</a>
+                        <Link to="#">AR 15 Barrels</Link>
                       </li>
                       <li>
-                        <a href="#">AR 15 Magazines</a>
+                        <Link to="#">AR 15 Magazines</Link>
                       </li>
                       <li>
-                        <a href="#">Jigs</a>
+                        <Link to="#">Jigs</Link>
                       </li>
                       <li>
-                        <a href="#">AR 15 All Parts</a>
+                        <Link to="#">AR 15 All Parts</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="sub-menux">
-                  <a href="#">308 LR Dpms</a>
+                  <Link to="#">308 LR Dpms</Link>
                   <div className="sub-menu-container">
                     <ul className="sub-menu-list">
                       <li>
-                        <a href="#">All 30B LR DPMS</a>
+                        <Link to="#">All 30B LR DPMS</Link>
                       </li>
                       <li>
-                        <a href="#">308 Hondguards</a>
+                        <Link to="#">308 Hondguards</Link>
                       </li>
                       <li>
-                        <a href="#">308 Upper Parts</a>
+                        <Link to="#">308 Upper Parts</Link>
                       </li>
                       <li>
-                        <a href="#">308 Lower Parts</a>
+                        <Link to="#">308 Lower Parts</Link>
                       </li>
                       <li>
-                        <a href="#">308 Win Barrels</a>
+                        <Link to="#">308 Win Barrels</Link>
                       </li>
                       <li>
-                        <a href="#">Jigs</a>
+                        <Link to="#">Jigs</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li>
-                  <a href="#">Ak</a>
+                  <Link to="#">Ak</Link>
                 </li>
                 <li className="sub-menux">
-                  <a href="#">Pistol</a>
+                  <Link to="#">Pistol</Link>
                   <div className="sub-menu-container">
                     <ul className="sub-menu-list">
                       <li>
-                        <a href="#">All Pistol</a>
+                        <Link to="#">All Pistol</Link>
                       </li>
                       <li>
-                        <a href="#">Glock</a>
+                        <Link to="#">Glock</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="sub-menux">
-                  <a href="#">Stocks & Braces</a>
+                  <Link to="#">Stocks & Braces</Link>
                   <div className="sub-menu-container">
                     <ul className="sub-menu-list">
                       <li>
-                        <a href="#">All Stocks & Braces</a>
+                        <Link to="#">All Stocks & Braces</Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           MBS<sup>TM</sup> Stocks
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           MBS<sup>TM</sup> Accessories
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Pistol Brace</a>
+                        <Link to="#">Pistol Brace</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li>
-                  <a href="#">California Compliant parts</a>
+                  <Link to="#">California Compliant parts</Link>
                 </li>
                 <li>
-                  <a href="#">Muzzle Devices</a>
+                  <Link to="#">Muzzle Devices</Link>
                 </li>
                 <li>
-                  <a href="#">Grips</a>
+                  <Link to="#">Grips</Link>
                 </li>
                 <li>
-                  <a href="#">80% Lowers</a>
+                  <Link to="#">80% Lowers</Link>
                 </li>
                 <li className="sub-menux">
-                  <a href="#">Complete Uppers</a>
+                  <Link to="#">Complete Uppers</Link>
                   <div className="sub-menu-container">
                     <ul className="sub-menu-list">
                       <li>
-                        <a href="#">All Complete Uppers</a>
+                        <Link to="#">All Complete Uppers</Link>
                       </li>
                       <li>
-                        <a href="#">556 Complete Uppers</a>
+                        <Link to="#">556 Complete Uppers</Link>
                       </li>
                       <li>
-                        <a href="#">308 Complete Uppers</a>
+                        <Link to="#">308 Complete Uppers</Link>
                       </li>
                       <li>
-                        <a href="#">300 BLK Out Complete Uppers</a>
+                        <Link to="#">300 BLK Out Complete Uppers</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li>
-                  <a href="#">Swag</a>
+                  <Link to="#">Swag</Link>
                 </li>
                 <li>
-                  <a href="#">Sale</a>
+                  <Link to="#">Sale</Link>
                 </li>
               </ul>
             </div>
@@ -160,151 +160,151 @@ const Navbar = () => {
           <div className="nav-self">
             <ul className="primary-menu-mobile">
               <li className="drop-1">
-                <a href="#">ar15</a>
+                <Link to="#">ar15</Link>
                 <button className="mobile-drop-btn">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
                 </button>
                 <div className="sub-menu-container-mobile" id="d1">
                   <ul className="sub-menu-list-mobile">
                     <li>
-                      <a href="#">All AR15</a>
+                      <Link to="#">All AR15</Link>
                     </li>
                     <li>
-                      <a href="#">AR 15 Hondguards</a>
+                      <Link to="#">AR 15 Hondguards</Link>
                     </li>
                     <li>
-                      <a href="#">AR 15 Lower Parts</a>
+                      <Link to="#">AR 15 Lower Parts</Link>
                     </li>
                     <li>
-                      <a href="#">AR 15 Upper Parts</a>
+                      <Link to="#">AR 15 Upper Parts</Link>
                     </li>
                     <li>
-                      <a href="#">AR 15 Barrels</a>
+                      <Link to="#">AR 15 Barrels</Link>
                     </li>
                     <li>
-                      <a href="#">AR 15 Magazines</a>
+                      <Link to="#">AR 15 Magazines</Link>
                     </li>
                     <li>
-                      <a href="#">Jigs</a>
+                      <Link to="#">Jigs</Link>
                     </li>
                     <li>
-                      <a href="#">AR 15 All Parts</a>
+                      <Link to="#">AR 15 All Parts</Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li className="drop-2">
-                <a href="#">308 LR Dpms</a>
+                <Link to="#">308 LR Dpms</Link>
                 <button className="mobile-drop-btn">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
                 </button>
                 <div className="sub-menu-container-mobile" id="d2">
                   <ul className="sub-menu-list-mobile">
                     <li>
-                      <a href="#">All 30B LR DPMS</a>
+                      <Link to="#">All 30B LR DPMS</Link>
                     </li>
                     <li>
-                      <a href="#">308 Hondguards</a>
+                      <Link to="#">308 Hondguards</Link>
                     </li>
                     <li>
-                      <a href="#">308 Upper Parts</a>
+                      <Link to="#">308 Upper Parts</Link>
                     </li>
                     <li>
-                      <a href="#">308 Lower Parts</a>
+                      <Link to="#">308 Lower Parts</Link>
                     </li>
                     <li>
-                      <a href="#">308 Win Barrels</a>
+                      <Link to="#">308 Win Barrels</Link>
                     </li>
                     <li>
-                      <a href="#">Jigs</a>
+                      <Link to="#">Jigs</Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a href="#">Ak</a>
+                <Link to="#">Ak</Link>
               </li>
               <li className="drop-3">
-                <a href="#">Pistol</a>
+                <Link to="#">Pistol</Link>
                 <button className="mobile-drop-btn">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
                 </button>
                 <div className="sub-menu-container-mobile" id="d3">
                   <ul className="sub-menu-list-mobile">
                     <li>
-                      <a href="#">All Pistol</a>
+                      <Link to="#">All Pistol</Link>
                     </li>
                     <li>
-                      <a href="#">Glock</a>
+                      <Link to="#">Glock</Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li className="drop-4">
-                <a href="#">Stocks & Braces</a>
+                <Link to="#">Stocks & Braces</Link>
                 <button className="mobile-drop-btn">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
                 </button>
                 <div className="sub-menu-container-mobile" id="d4">
                   <ul className="sub-menu-list-mobile">
                     <li>
-                      <a href="#">All Stocks & Braces</a>
+                      <Link to="#">All Stocks & Braces</Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         MBS<sup>TM</sup> Stocks
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         MBS<sup>TM</sup> Accessories
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Pistol Brace</a>
+                      <Link to="#">Pistol Brace</Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a href="#">California Compliant parts</a>
+                <Link to="#">California Compliant parts</Link>
               </li>
               <li>
-                <a href="#">Muzzle Devices</a>
+                <Link to="#">Muzzle Devices</Link>
               </li>
               <li>
-                <a href="#">Grips</a>
+                <Link to="#">Grips</Link>
               </li>
               <li>
-                <a href="#">80% Lowers</a>
+                <Link to="#">80% Lowers</Link>
               </li>
               <li className="drop-5">
-                <a href="#">Complete Uppers</a>
+                <Link to="#">Complete Uppers</Link>
                 <button className="mobile-drop-btn">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
                 </button>
                 <div className="sub-menu-container-mobile" id="d5">
                   <ul className="sub-menu-list-mobile">
                     <li>
-                      <a href="#">All Complete Uppers</a>
+                      <Link to="#">All Complete Uppers</Link>
                     </li>
                     <li>
-                      <a href="#">556 Complete Uppers</a>
+                      <Link to="#">556 Complete Uppers</Link>
                     </li>
                     <li>
-                      <a href="#">308 Complete Uppers</a>
+                      <Link to="#">308 Complete Uppers</Link>
                     </li>
                     <li>
-                      <a href="#">300 BLK Out Complete Uppers</a>
+                      <Link to="#">300 BLK Out Complete Uppers</Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a href="#">Swag</a>
+                <Link to="#">Swag</Link>
               </li>
               <li>
-                <a href="#">Sale</a>
+                <Link to="#">Sale</Link>
               </li>
             </ul>
           </div>

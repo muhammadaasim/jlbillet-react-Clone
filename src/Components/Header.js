@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from './Navbar'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <header className="main-header">
@@ -43,16 +42,19 @@ const Header = () => {
                   <img src="assets/images/gift-icon.png" alt="#" />
                 </p>
                 <p className="with-icon-txt">
-                  <Link to="#">Gift Certificates</Link>
+                  <Link to="/gifts">Gift Certificates</Link>
                 </p>
               </div>
               <div className="h-account xborder-left">
                 <p className="icon-img">
                   <img src="assets/images/account-icon.png" alt="#" />
                 </p>
+
                 <p className="with-icon-txt">
-                  <Link to="#">My Account</Link>
+                  <Link to="/login">
+                    My Account</Link>
                 </p>
+
               </div>
               <div className="h-cart">
                 <Link to="#">
@@ -82,7 +84,7 @@ const Header = () => {
             <div className="header-details mobile-change">
               <div className="h-cart">
                 <Link to="#">
-                  <img src="assets/images/cart-icon.png" alt="#"/>
+                  <img src="assets/images/cart-icon.png" alt="#" />
                   <span className="badge">0</span>
                 </Link>
               </div>
@@ -90,7 +92,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Navbar/>
     </header>
   );
 };

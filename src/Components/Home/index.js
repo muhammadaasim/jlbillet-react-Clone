@@ -8,7 +8,6 @@ import FeaturedProducts from "./FeaturedProducts";
 import CaliforniaComplimentPart from './CaliforniaComplimentPart'
 import PopularProducts from './PopularProducts'
 import Instagram from './Instagram'
-import Subscription from '../Subscription'
 const index = () => {
   return (
     <>
@@ -22,7 +21,6 @@ const index = () => {
       <CaliforniaComplimentPart/>
       <PopularProducts/>
       <Instagram/>
-      <Subscription/>
 
     </>
   );

@@ -3,19 +3,19 @@ import React from "react";
 import OwnCarousel from 'react-owl-carousel'
 const Carousel = () => {
   return (
-    <div class="main-content-wrapper">
-      <section class="homepage-banner">
-        <div class="homepage-banner-inner">
-          <div class="custom-owl-carousel owl-carousel">
-            <div class="slide-1">
-              <div class="slide-container-x"></div>
+    <div className="main-content-wrapper">
+      <section className="homepage-banner">
+        <div className="homepage-banner-inner">
+          <div className="custom-owl-carousel owl-carousel">
+            <div className="slide-1">
+              <div className="slide-container-x"></div>
             </div>
 
-            <div class="slide-2">
-              <div class="slide-container-x"></div>
+            <div className="slide-2">
+              <div className="slide-container-x"></div>
             </div>
-            <div class="slide-3">
-              <div class="slide-container-x"></div>
+            <div className="slide-3">
+              <div className="slide-container-x"></div>
             </div>
           </div>
         </div>
