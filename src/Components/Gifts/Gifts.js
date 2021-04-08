@@ -3,13 +3,6 @@ import { Link } from 'react-router-dom'
 const Gifts = () => {
     return (
         <section className="page-gift-x1">
-            <div className="link-map">
-                <div className="container">
-                    <div className="links">
-                        <Link to="/">Home</Link> / <Link to="/gifts">Gifts</Link>
-                    </div>
-                </div>
-            </div>
             <div className="gift-x1-inner">
                 <div className="container">
                     <div className="row">

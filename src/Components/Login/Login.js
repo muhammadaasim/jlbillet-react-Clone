@@ -12,7 +12,7 @@ const Login = () => {
             </div>
             <div className="page-sign-inner">
                 <div className="container">
-                <h3 className="page-inner-title">SIGN IN</h3>
+                    <h3 className="page-inner-title">SIGN IN</h3>
 
                     <div className="row sign-in-row">
                         <div className="col-md-6">
@@ -26,7 +26,7 @@ const Login = () => {
                             </div>
                             <div className="submit-btn-container">
                                 <input type="submit" className="submit-btn-1x" value="Sign in" />
-                                <a href="#" className="forget-pass">Forgot Password?</a>
+                                <Link to="/forgetpassword" className="forget-pass">Forgot Password?</Link>
                             </div>
                         </div>
                         <div className="col-md-6">

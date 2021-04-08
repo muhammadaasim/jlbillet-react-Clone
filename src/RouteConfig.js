@@ -16,6 +16,7 @@ import Sitemap from './Components/Sitemap'
 import Gifts from './Components/Gifts'
 import Login from './Components/Login'
 import CreateAccount from './Components/CreateAccount'
+import Forgetpassword from './Components/ForgetPassword'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from 'react-router-scroll-to-top';
 
@@ -41,6 +42,7 @@ function RouteConfig() {
           <Route path="/gifts" element={<Gifts />} />
           <Route path="/login" element={<Login />} />
           <Route path="/createaccount" element={<CreateAccount />} />
+          <Route path="/forgetpassword" element={<Forgetpassword />} />
           <Route path="/*" element={<Home />} />
         </Routes>
         <Subscription />
