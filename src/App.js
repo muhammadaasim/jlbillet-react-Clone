@@ -1,10 +1,9 @@
 import React from "react";
-import Home from "./Components/Home";
-
+import RouteConfig from './RouteConfig'
 function App() {
   return (
     <>
-      <Home />
+      <RouteConfig />
     </>
   );
 }

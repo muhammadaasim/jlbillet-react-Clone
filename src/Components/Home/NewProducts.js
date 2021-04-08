@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const NewProducts = () => {
   return (
@@ -13,16 +14,16 @@ const NewProducts = () => {
             <div className="product-card">
               <div className="product-bar-inner">
                 <div className="product-image">
-                  <img src="assets/images/product-image.png" />
-                  <a href="#" className="quick-btn">
+                  <img src="assets/images/product-image.png" alt="#"/>
+                  <Link to="#" className="quick-btn">
                     Quick View
-                  </a>
+                  </Link>
                 </div>
                 <div className="product-content">
                   <h5>
-                    <a href="#">
+                    <Link to="#">
                       Stainless Steel One Piece Threaded Bolt Catch Pin
-                    </a>
+                    </Link>
                   </h5>
                   <div className="testimonial-rating">
                     <span className="star-rating">
@@ -30,9 +31,9 @@ const NewProducts = () => {
                     </span>
                   </div>
                   <p className="product-price">$3.95</p>
-                  <a href="#" className="add-to-cart">
+                  <Link to="#" className="add-to-cart">
                     Add to Cart
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -41,16 +42,16 @@ const NewProducts = () => {
             <div className="product-card">
               <div className="product-bar-inner">
                 <div className="product-image">
-                  <img src="assets/images/product-image.png" />
-                  <a href="#" className="quick-btn">
+                  <img src="assets/images/product-image.png" alt="#"/>
+                  <Link to="#" className="quick-btn">
                     Quick View
-                  </a>
+                  </Link>
                 </div>
                 <div className="product-content">
                   <h5>
-                    <a href="#">
+                    <Link to="#">
                       Stainless Steel One Piece Threaded Bolt Catch Pin
-                    </a>
+                    </Link>
                   </h5>
                   <div className="testimonial-rating">
                     <span className="star-rating">
@@ -58,9 +59,9 @@ const NewProducts = () => {
                     </span>
                   </div>
                   <p className="product-price">$3.95</p>
-                  <a href="#" className="add-to-cart">
+                  <Link to="#" className="add-to-cart">
                     Add to Cart
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,16 +70,16 @@ const NewProducts = () => {
             <div className="product-card">
               <div className="product-bar-inner">
                 <div className="product-image">
-                  <img src="assets/images/product-image.png" />
-                  <a href="#" className="quick-btn">
+                  <img src="assets/images/product-image.png" alt="#"/>
+                  <Link to="#" className="quick-btn">
                     Quick View
-                  </a>
+                  </Link>
                 </div>
                 <div className="product-content">
                   <h5>
-                    <a href="#">
+                    <Link to="#">
                       Stainless Steel One Piece Threaded Bolt Catch Pin
-                    </a>
+                    </Link>
                   </h5>
                   <div className="testimonial-rating">
                     <span className="star-rating">
@@ -86,9 +87,9 @@ const NewProducts = () => {
                     </span>
                   </div>
                   <p className="product-price">$3.95</p>
-                  <a href="#" className="add-to-cart">
+                  <Link to="#" className="add-to-cart">
                     Add to Cart
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

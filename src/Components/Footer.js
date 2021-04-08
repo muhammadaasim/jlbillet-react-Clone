@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -12,44 +13,44 @@ const Footer = () => {
                 <div className="col-md-6">
                   <ul>
                     <li>
-                      <a href="ar15.html">AR15</a>
+                      <Link to="ar15.html">AR15</Link>
                     </li>
                     <li>
-                      <a href="#">AK</a>
+                      <Link to="#">AK</Link>
                     </li>
                     <li>
-                      <a href="#">Stocks & Braces</a>
+                      <Link to="#">Stocks & Braces</Link>
                     </li>
                     <li>
-                      <a href="#">Muzzle Devices</a>
+                      <Link to="#">Muzzle Devices</Link>
                     </li>
                     <li>
-                      <a href="#">80% Lowers</a>
+                      <Link to="#">80% Lowers</Link>
                     </li>
                     <li>
-                      <a href="#">Swag</a>
+                      <Link to="#">Swag</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col-md-6">
                   <ul>
                     <li>
-                      <a href="#">308 LR DPMS</a>
+                      <Link to="#">308 LR DPMS</Link>
                     </li>
                     <li>
-                      <a href="#">Pistol</a>
+                      <Link to="#">Pistol</Link>
                     </li>
                     <li>
-                      <a href="#">California Compliant Parts</a>
+                      <Link to="#">California Compliant Parts</Link>
                     </li>
                     <li>
-                      <a href="#">Grips</a>
+                      <Link to="#">Grips</Link>
                     </li>
                     <li>
-                      <a href="#">Complete Uppers</a>
+                      <Link to="#">Complete Uppers</Link>
                     </li>
                     <li>
-                      <a href="#">Sale</a>
+                      <Link to="#">Sale</Link>
                     </li>
                   </ul>
                 </div>
@@ -60,25 +61,25 @@ const Footer = () => {
               <div className="custom-menu">
                 <ul>
                   <li>
-                    <a href="#">About</a>
+                    <Link to="#">About</Link>
                   </li>
                   <li>
-                    <a href="#">Dealers</a>
+                    <Link to="#">Dealers</Link>
                   </li>
                   <li>
-                    <a href="#">Tutorials</a>
+                    <Link to="#">Tutorials</Link>
                   </li>
                   <li>
-                    <a href="#">Gallery</a>
+                    <Link to="#">Gallery</Link>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <Link to="#">Blog</Link>
                   </li>
                   <li>
-                    <a href="#">Shipping & Returns</a>
+                    <Link to="#">Shipping & Returns</Link>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <Link to="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -88,19 +89,19 @@ const Footer = () => {
               <div className="custom-menu">
                 <ul>
                   <li>
-                    <a href="">Ballistic Advantage</a>
+                    <Link to="">Ballistic Advantage</Link>
                   </li>
                   <li>
-                    <a href="">Hexmag</a>
+                    <Link to="">Hexmag</Link>
                   </li>
                   <li>
-                    <a href="">JL Billet</a>
+                    <Link to="">JL Billet</Link>
                   </li>
                   <li>
-                    <a href="">Lancer</a>
+                    <Link to="">Lancer</Link>
                   </li>
                   <li>
-                    <a href="">Naroh Arms</a>
+                    <Link to="">Naroh Arms</Link>
                   </li>
                 </ul>
               </div>
@@ -115,24 +116,24 @@ const Footer = () => {
                   </li>
                   <li>
                     <img src="assets/images/orange-call-icon.png" alt="Phone" />
-                    <a href="tel:6198001751">619-800-1751</a>
+                    <Link to="tel:6198001751">619-800-1751</Link>
                   </li>
                 </ul>
               </div>
               <div className="column-title">Follow Us On</div>
               <div className="social-contact">
-                <a href="#">
+                <Link to="#">
                   <i className="fa fa-facebook-official" aria-hidden="true"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -147,10 +148,10 @@ const Footer = () => {
             Currency Displayed in <strong>USD</strong>
           </li>
           <li>
-            <a href="#">Sitemap</a>
+            <Link to="#">Sitemap</Link>
           </li>
           <li>
-            <a href="#">Terms Of Use</a>
+            <Link to="#">Terms Of Use</Link>
           </li>
         </ul>
       </div>

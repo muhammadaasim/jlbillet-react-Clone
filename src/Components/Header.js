@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from './Navbar'
+import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <header className="main-header">
@@ -22,42 +23,42 @@ const Header = () => {
           </div>
           <div className="inner-top-center">
             <div className="site-logo">
-              <a href="index.html">
+              <Link to="index.html">
                 <img src="assets/images/jl-logo.png" alt="JL Billet" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="inner-top-right">
             <div className="header-details">
               <div className="h-phone">
                 <p className="icon-img">
-                  <img src="assets/images/call-icon.png" alt="" />
+                  <img src="assets/images/call-icon.png" alt="#" />
                 </p>
                 <p className="with-icon-txt">
-                  <a href="tel:6198001751">619-800-1751</a>
+                  <Link to="tel:6198001751">619-800-1751</Link>
                 </p>
               </div>
               <div className="h-gift xborder-left">
                 <p className="icon-img">
-                  <img src="assets/images/gift-icon.png" alt="" />
+                  <img src="assets/images/gift-icon.png" alt="#" />
                 </p>
                 <p className="with-icon-txt">
-                  <a href="#">Gift Certificates</a>
+                  <Link to="#">Gift Certificates</Link>
                 </p>
               </div>
               <div className="h-account xborder-left">
                 <p className="icon-img">
-                  <img src="assets/images/account-icon.png" alt="" />
+                  <img src="assets/images/account-icon.png" alt="#" />
                 </p>
                 <p className="with-icon-txt">
-                  <a href="#">My Account</a>
+                  <Link to="#">My Account</Link>
                 </p>
               </div>
               <div className="h-cart">
-                <a href="#">
-                  <img src="assets/images/cart-icon.png" /> cart
+                <Link to="#">
+                  <img src="assets/images/cart-icon.png" alt="#" /> cart
                   <span className="badge">0</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -80,10 +81,10 @@ const Header = () => {
           <div className="inner-top-right">
             <div className="header-details mobile-change">
               <div className="h-cart">
-                <a href="#">
-                  <img src="assets/images/cart-icon.png" />
+                <Link to="#">
+                  <img src="assets/images/cart-icon.png" alt="#"/>
                   <span className="badge">0</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

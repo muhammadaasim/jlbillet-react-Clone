@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Headline = () => {
   return (
@@ -31,9 +32,9 @@ const Headline = () => {
               right.
             </p>
             <div className="btn-wrapper">
-              <a href="#" className="primary-btn-x mb-4 mt-4">
+              <Link to="#" className="primary-btn-x mb-4 mt-4">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

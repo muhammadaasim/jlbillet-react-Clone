@@ -1,7 +1,4 @@
 import React from "react";
-import Header from "../Header";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 import Carousel from "./Carousel";
 import Headline from "./Headline";
 import Brand from "./Brands";
@@ -15,7 +12,6 @@ import Subscription from './Subscription'
 const index = () => {
   return (
     <>
-      <Header />
       <Carousel />
       <TopProducts />
       <Headline>
@@ -27,7 +23,7 @@ const index = () => {
       <PopularProducts/>
       <Instagram/>
       <Subscription/>
-      <Footer />
+
     </>
   );
 };
